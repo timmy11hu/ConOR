@@ -1,0 +1,32 @@
+{
+  "conor": {
+    "single": "2022_02_20_00_00_00/epoch-10.pth",
+    "ensemble": [
+    ]
+  },
+  "bc": {
+    "single": "2022_02_20_00_00_00/epoch-10.pth",
+    "ensemble": [
+    ]
+  },
+  "gl": {
+    "single": "2022_02_20_00_00_00/epoch-10.pth",
+    "ensemble": [
+    ]
+  },
+  "lgl": {
+    "single": "2022_02_20_00_00_00/epoch-10.pth",
+    "ensemble": [
+    ]
+  },
+  "mcc": {
+    "single": "2022_02_20_00_00_00/epoch-10.pth",
+    "ensemble": [
+    ]
+  },
+  "or": {
+    "single": "2022_02_20_00_00_00/epoch-10.pth",
+    "ensemble": [
+    ]
+  }
+}

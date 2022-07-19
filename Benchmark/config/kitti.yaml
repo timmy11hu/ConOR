@@ -1,0 +1,42 @@
+environ:
+  deterministic: False
+model:
+  name: "dorn"
+  pretrained_model:
+  params:
+    discretization: "SID"
+    ord_num: 80
+    alpha: 1.0
+    beta: 80.0
+    gamma: 0.0
+    input_size: [370, 1224]
+    kernel_size: 16
+    pyramid: [6, 12, 18]
+    batch_norm: False
+    dropout_prob: 0.5
+    backbone: "ResNet101"
+data:
+  name: "Kitti"
+  split: ["eigen_train_dense", "eigen_test_dense"]
+  rgb_path: 'data/KITTI'
+  depth_path: 'data/KITTI'
+  weight_path: 'data/KITTI'
+  tr_crop_size: [370, 1224]
+  te_crop_size: [370, 1224]
+  norm_type: "imagenet-norm"
+solver:
+  epochs: 10
+  batch_size: 4
+  step_decay: 1
+  optimizer:
+    name: 'Adam'
+    params:
+      lr: 0.0001
+  lr_policy:
+    name: 'constant'
+    params:
+      gamma: 1.0
+snap:
+  path: "result"
+
+

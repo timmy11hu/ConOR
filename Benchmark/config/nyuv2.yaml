@@ -1,0 +1,40 @@
+environ:
+  seed: 5
+  deterministic: False
+model:
+  name: "dorn"
+  params:
+    loss_type: "lgl"
+    discretization: "SID"
+    ord_num: 40
+    alpha: 0.0
+    beta: 10.0
+    gamma: 1.0
+    input_size: [440, 590]
+    kernel_size: 16
+    pyramid: [6, 12, 18]
+    batch_norm: True
+    dropout_prob: 0.5
+    backbone: "ResNet101"
+data:
+  name: "NYUv2"
+  split: ["train_sub50k", "test"]
+  rgb_path: 'data/NYUv2'
+  depth_path: 'data/NYUv2'
+  weight_path: 'data/NYUv2'
+  tr_crop_size: [440, 590]
+  te_crop_size: [440, 590]
+  norm_type: "imagenet-norm"
+solver:
+  epochs: 5
+  batch_size: 8
+  step_decay: 1
+  optimizer:
+    name: 'Adam'
+    params:
+      lr: 0.0001
+  lr_policy:
+    name: 'constant'
+snap:
+  path: "result"
+
