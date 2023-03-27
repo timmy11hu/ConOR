@@ -7,9 +7,9 @@ Supplementary material can be found [here.](https://www.ecva.net/papers/eccv_202
 
 | Input Image | Depth Estimation |
 :-------------------------:|:-------------------------:
-![0.5](Figures/raw.pdf)  |  ![0.5](Figures/pred.pdf)
+![0.5](Figures/raw.png)  |  ![0.5](Figures/pred.png)
 | Predictive Uncertainty | Estimation Error|
-![0.5](Figures/predvar.pdf)  |  ![0.5](Figures/err.pdf)
+![0.5](Figures/predvar.png)  |  ![0.5](Figures/err.png)
 
 
 
