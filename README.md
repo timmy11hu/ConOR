@@ -7,9 +7,9 @@ Supplementary material can be found [here.](https://www.ecva.net/papers/eccv_202
 
 | Input Image | Depth Estimation |
 :-------------------------:|:-------------------------:
-![0.5](https://github.com/timmy11hu/ConOR/blob/main/Figures/raw.pdf)  |  ![0.5](https://github.com/timmy11hu/ConOR/blob/main/Figures/pred.pdf)
+![0.5](Figures/raw.pdf)  |  ![0.5](Figures/pred.pdf)
 | Predictive Uncertainty | Estimation Error|
-![0.5](https://github.com/timmy11hu/ConOR/blob/main/Figures/predvar.pdf)  |  ![0.5](https://github.com/timmy11hu/ConOR/blob/main/Figures/err.pdf)
+![0.5](Figures/predvar.pdf)  |  ![0.5](Figures/err.pdf)
 
 
 
