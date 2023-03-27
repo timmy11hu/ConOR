@@ -12,7 +12,7 @@ Supplementary material can be found [here.](https://www.ecva.net/papers/eccv_202
 ![0.5](Figures/unc.png)  |  ![0.5](Figures/err.png)
 
 ### Synthetic data for demonstration:
-The `Simulation` directory contains the code of the experiment on synthetic data. To run the experiment, please refer to [scipts](Simulation/READ.me).
+The `Simulation` directory contains the code of the experiment on synthetic data. To run the experiment, please refer to [scipts](Simulation/README.md).
 
 If you find it useful, please consider citing:
 ```
