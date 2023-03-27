@@ -9,7 +9,6 @@ Supplementary material can be found [here.](https://www.ecva.net/papers/eccv_202
 :-------------------------:|:-------------------------:
 ![0.5](Figures/raw.png)  |  ![0.5](Figures/pred.png)
 | Predictive Uncertainty | Estimation Error \(vs. ground truth\)|
-:-------------------------:|:-------------------------:
 ![0.5](Figures/unc.png)  |  ![0.5](Figures/err.png)
 
 
