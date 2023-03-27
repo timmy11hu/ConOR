@@ -6,8 +6,10 @@ This repository contains the implementation of ConOR on synthetic data and bench
 Supplementary material can be found [here.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229-supp.pdf)
 
 | Input Image | Depth Estimation |
+:-------------------------:|:-------------------------:
 ![0.5](Figures/raw.png)  |  ![0.5](Figures/pred.png)
 | Predictive Uncertainty | Estimation Error \(vs. ground truth\)|
+:-------------------------:|:-------------------------:
 ![0.5](Figures/unc.png)  |  ![0.5](Figures/err.png)
 
 
